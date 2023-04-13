@@ -1,0 +1,27 @@
+{
+  "name": "serializable-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "node ./dist/test/test.js"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^18.13.0",
+    "chalk": "^4.0.0",
+    "typescript": "^4.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spasimir21/serializable-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spasimir21/serializable-js/issues"
+  },
+  "homepage": "https://github.com/spasimir21/serializable-js#readme",
+  "author": "Spasimir Pavlov",
+  "license": "MIT"
+}

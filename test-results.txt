@@ -1,0 +1,677 @@
+(1/30) Int8 (5 case/s):
+  Case #1 (Random #1):
+    Serialize: 697,301 op/s (0.0014341ms) (1.4341ms total)
+    Deserialize: 1,388,117 op/s (0.0007204000000000001ms) (0.7204ms total)
+    Size: 1 bytes
+  Case #2 (Random #2):
+    Serialize: 1,170,001 op/s (0.0008547ms) (0.8547ms total)
+    Deserialize: 1,595,150 op/s (0.0006269ms) (0.6269ms total)
+    Size: 1 bytes
+  Case #3 (Random #3):
+    Serialize: 822,165 op/s (0.0012163ms) (1.2163ms total)
+    Deserialize: 1,665,278 op/s (0.0006005ms) (0.6005ms total)
+    Size: 1 bytes
+  Case #4 (Random #4):
+    Serialize: 1,063,829 op/s (0.00094ms) (0.94ms total)
+    Deserialize: 1,921,229 op/s (0.0005204999999999999ms) (0.5205ms total)
+    Size: 1 bytes
+  Case #5 (Random #5):
+    Serialize: 858,590 op/s (0.0011647ms) (1.1647ms total)
+    Deserialize: 3,020,235 op/s (0.0003311ms) (0.3311ms total)
+    Size: 1 bytes
+
+(2/30) UInt8 (5 case/s):
+  Case #1 (Random #1):
+    Serialize: 796,051 op/s (0.0012562ms) (1.2562ms total)
+    Deserialize: 3,181,673 op/s (0.00031430000000000005ms) (0.3143ms total)
+    Size: 1 bytes
+  Case #2 (Random #2):
+    Serialize: 1,416,430 op/s (0.0007059999999999999ms) (0.706ms total)
+    Deserialize: 4,108,463 op/s (0.0002434ms) (0.2434ms total)
+    Size: 1 bytes
+  Case #3 (Random #3):
+    Serialize: 1,602,820 op/s (0.0006239ms) (0.6239ms total)
+    Deserialize: 2,103,491 op/s (0.0004754ms) (0.4754ms total)
+    Size: 1 bytes
+  Case #4 (Random #4):
+    Serialize: 1,010,305 op/s (0.0009898ms) (0.9898ms total)
+    Deserialize: 2,184,359 op/s (0.00045779999999999996ms) (0.4578ms total)
+    Size: 1 bytes
+  Case #5 (Random #5):
+    Serialize: 10,193,679 op/s (0.00009810000000000001ms) (0.0981ms total)
+    Deserialize: 4,638,218 op/s (0.0002156ms) (0.2156ms total)
+    Size: 1 bytes
+
+(3/30) Int16 (5 case/s):
+  Case #1 (Random #1):
+    Serialize: 2,490,039 op/s (0.0004016ms) (0.4016ms total)
+    Deserialize: 2,362,948 op/s (0.00042320000000000004ms) (0.4232ms total)
+    Size: 2 bytes
+  Case #2 (Random #2):
+    Serialize: 5,146,680 op/s (0.0001943ms) (0.1943ms total)
+    Deserialize: 2,534,211 op/s (0.0003946ms) (0.3946ms total)
+    Size: 2 bytes
+  Case #3 (Random #3):
+    Serialize: 8,635,578 op/s (0.0001158ms) (0.1158ms total)
+    Deserialize: 3,760,812 op/s (0.0002659ms) (0.2659ms total)
+    Size: 2 bytes
+  Case #4 (Random #4):
+    Serialize: 3,262,642 op/s (0.00030649999999999997ms) (0.3065ms total)
+    Deserialize: 2,708,559 op/s (0.0003692ms) (0.3692ms total)
+    Size: 2 bytes
+  Case #5 (Random #5):
+    Serialize: 2,545,824 op/s (0.0003928ms) (0.3928ms total)
+    Deserialize: 3,765,060 op/s (0.0002656ms) (0.2656ms total)
+    Size: 2 bytes
+
+(4/30) UInt16 (5 case/s):
+  Case #1 (Random #1):
+    Serialize: 7,342,143 op/s (0.00013619999999999998ms) (0.1362ms total)
+    Deserialize: 8,264,462 op/s (0.000121ms) (0.121ms total)
+    Size: 2 bytes
+  Case #2 (Random #2):
+    Serialize: 5,291,005 op/s (0.000189ms) (0.189ms total)
+    Deserialize: 8,583,690 op/s (0.00011650000000000001ms) (0.1165ms total)
+    Size: 2 bytes
+  Case #3 (Random #3):
+    Serialize: 4,074,979 op/s (0.0002454ms) (0.2454ms total)
+    Deserialize: 4,539,264 op/s (0.0002203ms) (0.2203ms total)
+    Size: 2 bytes
+  Case #4 (Random #4):
+    Serialize: 3,706,449 op/s (0.0002698ms) (0.2698ms total)
+    Deserialize: 8,591,065 op/s (0.0001164ms) (0.1164ms total)
+    Size: 2 bytes
+  Case #5 (Random #5):
+    Serialize: 9,842,519 op/s (0.00010159999999999999ms) (0.1016ms total)
+    Deserialize: 6,944,444 op/s (0.00014399999999999998ms) (0.144ms total)
+    Size: 2 bytes
+
+(5/30) Int32 (5 case/s):
+  Case #1 (Random #1):
+    Serialize: 3,182,686 op/s (0.0003142ms) (0.3142ms total)
+    Deserialize: 6,455,777 op/s (0.0001549ms) (0.1549ms total)
+    Size: 4 bytes
+  Case #2 (Random #2):
+    Serialize: 3,703,703 op/s (0.00027ms) (0.27ms total)
+    Deserialize: 4,409,171 op/s (0.0002268ms) (0.2268ms total)
+    Size: 4 bytes
+  Case #3 (Random #3):
+    Serialize: 3,056,234 op/s (0.0003272ms) (0.3272ms total)
+    Deserialize: 4,692,632 op/s (0.0002131ms) (0.2131ms total)
+    Size: 4 bytes
+  Case #4 (Random #4):
+    Serialize: 3,030,303 op/s (0.00033ms) (0.33ms total)
+    Deserialize: 9,532,888 op/s (0.00010489999999999999ms) (0.1049ms total)
+    Size: 4 bytes
+  Case #5 (Random #5):
+    Serialize: 10,162,601 op/s (0.0000984ms) (0.0984ms total)
+    Deserialize: 5,688,282 op/s (0.00017580000000000002ms) (0.1758ms total)
+    Size: 4 bytes
+
+(6/30) UInt32 (5 case/s):
+  Case #1 (Random #1):
+    Serialize: 3,109,452 op/s (0.0003216ms) (0.3216ms total)
+    Deserialize: 6,720,430 op/s (0.00014879999999999998ms) (0.1488ms total)
+    Size: 4 bytes
+  Case #2 (Random #2):
+    Serialize: 1,386,770 op/s (0.0007210999999999999ms) (0.7211ms total)
+    Deserialize: 5,543,237 op/s (0.0001804ms) (0.1804ms total)
+    Size: 4 bytes
+  Case #3 (Random #3):
+    Serialize: 2,075,550 op/s (0.0004818ms) (0.4818ms total)
+    Deserialize: 6,671,114 op/s (0.0001499ms) (0.1499ms total)
+    Size: 4 bytes
+  Case #4 (Random #4):
+    Serialize: 1,235,941 op/s (0.0008091ms) (0.8091ms total)
+    Deserialize: 5,906,674 op/s (0.0001693ms) (0.1693ms total)
+    Size: 4 bytes
+  Case #5 (Random #5):
+    Serialize: 1,822,489 op/s (0.0005487ms) (0.5487ms total)
+    Deserialize: 14,534,883 op/s (0.0000688ms) (0.0688ms total)
+    Size: 4 bytes
+
+(7/30) BigInt64 (5 case/s):
+  Case #1 (Random #1):
+    Serialize: 628,022 op/s (0.0015923ms) (1.5923ms total)
+    Deserialize: 2,520,796 op/s (0.0003967ms) (0.3967ms total)
+    Size: 8 bytes
+  Case #2 (Random #2):
+    Serialize: 894,294 op/s (0.0011182000000000002ms) (1.1182ms total)
+    Deserialize: 2,849,814 op/s (0.00035089999999999996ms) (0.3509ms total)
+    Size: 8 bytes
+  Case #3 (Random #3):
+    Serialize: 1,024,380 op/s (0.0009762ms) (0.9762ms total)
+    Deserialize: 3,718,854 op/s (0.0002689ms) (0.2689ms total)
+    Size: 8 bytes
+  Case #4 (Random #4):
+    Serialize: 900,738 op/s (0.0011102ms) (1.1102ms total)
+    Deserialize: 5,509,641 op/s (0.0001815ms) (0.1815ms total)
+    Size: 8 bytes
+  Case #5 (Random #5):
+    Serialize: 2,606,882 op/s (0.0003836ms) (0.3836ms total)
+    Deserialize: 5,817,335 op/s (0.0001719ms) (0.1719ms total)
+    Size: 8 bytes
+
+(8/30) BigUInt64 (5 case/s):
+  Case #1 (Random #1):
+    Serialize: 3,345,600 op/s (0.0002989ms) (0.2989ms total)
+    Deserialize: 2,053,809 op/s (0.0004869ms) (0.4869ms total)
+    Size: 8 bytes
+  Case #2 (Random #2):
+    Serialize: 1,925,298 op/s (0.0005193999999999999ms) (0.5194ms total)
+    Deserialize: 2,844,141 op/s (0.00035160000000000004ms) (0.3516ms total)
+    Size: 8 bytes
+  Case #3 (Random #3):
+    Serialize: 3,404,834 op/s (0.00029370000000000004ms) (0.2937ms total)
+    Deserialize: 3,174,603 op/s (0.000315ms) (0.315ms total)
+    Size: 8 bytes
+  Case #4 (Random #4):
+    Serialize: 2,151,000 op/s (0.00046489999999999997ms) (0.4649ms total)
+    Deserialize: 4,904,364 op/s (0.0002039ms) (0.2039ms total)
+    Size: 8 bytes
+  Case #5 (Random #5):
+    Serialize: 819,604 op/s (0.0012201ms) (1.2201ms total)
+    Deserialize: 3,215,434 op/s (0.000311ms) (0.311ms total)
+    Size: 8 bytes
+
+(9/30) Float (5 case/s):
+  Case #1 (Random #1):
+    Serialize: 2,082,465 op/s (0.0004802ms) (0.4802ms total)
+    Deserialize: 1,828,822 op/s (0.0005468ms) (0.5468ms total)
+    Size: 4 bytes
+  Case #2 (Random #2):
+    Serialize: 3,903,200 op/s (0.0002562ms) (0.2562ms total)
+    Deserialize: 7,225,433 op/s (0.0001384ms) (0.1384ms total)
+    Size: 4 bytes
+  Case #3 (Random #3):
+    Serialize: 2,379,252 op/s (0.0004203ms) (0.4203ms total)
+    Deserialize: 5,382,131 op/s (0.0001858ms) (0.1858ms total)
+    Size: 4 bytes
+  Case #4 (Random #4):
+    Serialize: 2,462,447 op/s (0.0004061ms) (0.4061ms total)
+    Deserialize: 3,460,207 op/s (0.000289ms) (0.289ms total)
+    Size: 4 bytes
+  Case #5 (Random #5):
+    Serialize: 2,638,522 op/s (0.000379ms) (0.379ms total)
+    Deserialize: 8,539,709 op/s (0.0001171ms) (0.1171ms total)
+    Size: 4 bytes
+
+(10/30) Double (5 case/s):
+  Case #1 (Random #1):
+    Serialize: 1,798,884 op/s (0.0005558999999999999ms) (0.5559ms total)
+    Deserialize: 3,479,471 op/s (0.0002874ms) (0.2874ms total)
+    Size: 8 bytes
+  Case #2 (Random #2):
+    Serialize: 3,727,171 op/s (0.00026829999999999996ms) (0.2683ms total)
+    Deserialize: 4,253,509 op/s (0.0002351ms) (0.2351ms total)
+    Size: 8 bytes
+  Case #3 (Random #3):
+    Serialize: 2,046,245 op/s (0.0004887ms) (0.4887ms total)
+    Deserialize: 4,522,840 op/s (0.00022109999999999998ms) (0.2211ms total)
+    Size: 8 bytes
+  Case #4 (Random #4):
+    Serialize: 5,162,622 op/s (0.00019370000000000002ms) (0.1937ms total)
+    Deserialize: 13,315,579 op/s (0.0000751ms) (0.0751ms total)
+    Size: 8 bytes
+  Case #5 (Random #5):
+    Serialize: 8,591,065 op/s (0.0001164ms) (0.1164ms total)
+    Deserialize: 15,625,000 op/s (0.000064ms) (0.064ms total)
+    Size: 8 bytes
+
+(11/30) VarInt (4 case/s):
+  Case #1 (Random #1):
+    Serialize: 1,036,376 op/s (0.0009649ms) (0.9649ms total)
+    Deserialize: 1,291,989 op/s (0.0007740000000000001ms) (0.774ms total)
+    Size: 1 bytes
+  Case #2 (Random #2):
+    Serialize: 813,735 op/s (0.0012289ms) (1.2289ms total)
+    Deserialize: 1,579,030 op/s (0.0006332999999999999ms) (0.6333ms total)
+    Size: 2 bytes
+  Case #3 (Random #3):
+    Serialize: 2,427,184 op/s (0.000412ms) (0.412ms total)
+    Deserialize: 1,544,401 op/s (0.0006475ms) (0.6475ms total)
+    Size: 2 bytes
+  Case #4 (Random #4):
+    Serialize: 2,012,477 op/s (0.0004969ms) (0.4969ms total)
+    Deserialize: 2,032,520 op/s (0.000492ms) (0.492ms total)
+    Size: 4 bytes
+
+(12/30) VarUInt (4 case/s):
+  Case #1 (Random #1):
+    Serialize: 2,622,606 op/s (0.0003813ms) (0.3813ms total)
+    Deserialize: 9,242,144 op/s (0.0001082ms) (0.1082ms total)
+    Size: 1 bytes
+  Case #2 (Random #2):
+    Serialize: 4,198,152 op/s (0.0002382ms) (0.2382ms total)
+    Deserialize: 7,751,937 op/s (0.000129ms) (0.129ms total)
+    Size: 2 bytes
+  Case #3 (Random #3):
+    Serialize: 4,621,072 op/s (0.0002164ms) (0.2164ms total)
+    Deserialize: 15,797,788 op/s (0.0000633ms) (0.0633ms total)
+    Size: 3 bytes
+  Case #4 (Random #4):
+    Serialize: 4,618,937 op/s (0.0002165ms) (0.2165ms total)
+    Deserialize: 3,381,805 op/s (0.00029570000000000003ms) (0.2957ms total)
+    Size: 4 bytes
+
+(13/30) VarLong (8 case/s):
+  Case #1 (Random #1):
+    Serialize: 588,062 op/s (0.0017005ms) (1.7005ms total)
+    Deserialize: 2,847,380 op/s (0.0003512ms) (0.3512ms total)
+    Size: 1 bytes
+  Case #2 (Random #2):
+    Serialize: 571,820 op/s (0.0017488ms) (1.7488ms total)
+    Deserialize: 2,214,839 op/s (0.0004515ms) (0.4515ms total)
+    Size: 2 bytes
+  Case #3 (Random #3):
+    Serialize: 655,952 op/s (0.0015245ms) (1.5245ms total)
+    Deserialize: 1,504,664 op/s (0.0006646ms) (0.6646ms total)
+    Size: 3 bytes
+  Case #4 (Random #4):
+    Serialize: 554,600 op/s (0.0018031ms) (1.8031ms total)
+    Deserialize: 1,990,445 op/s (0.0005024ms) (0.5024ms total)
+    Size: 4 bytes
+  Case #5 (Random #5):
+    Serialize: 433,764 op/s (0.0023054ms) (2.3054ms total)
+    Deserialize: 1,663,063 op/s (0.0006012999999999999ms) (0.6013ms total)
+    Size: 5 bytes
+  Case #6 (Random #6):
+    Serialize: 460,066 op/s (0.0021736ms) (2.1736ms total)
+    Deserialize: 1,596,169 op/s (0.0006265ms) (0.6265ms total)
+    Size: 6 bytes
+  Case #7 (Random #7):
+    Serialize: 542,005 op/s (0.001845ms) (1.845ms total)
+    Deserialize: 1,375,137 op/s (0.0007272ms) (0.7272ms total)
+    Size: 7 bytes
+  Case #8 (Random #8):
+    Serialize: 537,172 op/s (0.0018616ms) (1.8616ms total)
+    Deserialize: 1,132,118 op/s (0.0008833ms) (0.8833ms total)
+    Size: 8 bytes
+
+(14/30) VarULong (8 case/s):
+  Case #1 (Random #1):
+    Serialize: 648,466 op/s (0.0015421ms) (1.5421ms total)
+    Deserialize: 8,347,245 op/s (0.0001198ms) (0.1198ms total)
+    Size: 1 bytes
+  Case #2 (Random #2):
+    Serialize: 370,961 op/s (0.0026957ms) (2.6957ms total)
+    Deserialize: 5,449,591 op/s (0.0001835ms) (0.1835ms total)
+    Size: 2 bytes
+  Case #3 (Random #3):
+    Serialize: 698,567 op/s (0.0014315ms) (1.4315ms total)
+    Deserialize: 3,856,536 op/s (0.00025929999999999996ms) (0.2593ms total)
+    Size: 3 bytes
+  Case #4 (Random #4):
+    Serialize: 624,063 op/s (0.0016024000000000001ms) (1.6024ms total)
+    Deserialize: 2,607,561 op/s (0.0003835ms) (0.3835ms total)
+    Size: 4 bytes
+  Case #5 (Random #5):
+    Serialize: 726,163 op/s (0.0013771ms) (1.3771ms total)
+    Deserialize: 1,865,323 op/s (0.0005361000000000001ms) (0.5361ms total)
+    Size: 5 bytes
+  Case #6 (Random #6):
+    Serialize: 685,353 op/s (0.0014591ms) (1.4591ms total)
+    Deserialize: 1,112,966 op/s (0.0008985ms) (0.8985ms total)
+    Size: 6 bytes
+  Case #7 (Random #7):
+    Serialize: 556,947 op/s (0.0017955ms) (1.7955ms total)
+    Deserialize: 1,398,797 op/s (0.0007149ms) (0.7149ms total)
+    Size: 7 bytes
+  Case #8 (Random #8):
+    Serialize: 676,727 op/s (0.0014777ms) (1.4777ms total)
+    Deserialize: 1,322,051 op/s (0.0007564ms) (0.7564ms total)
+    Size: 8 bytes
+
+(15/30) Buffer (Static Size) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 972,668 op/s (0.0010281ms) (1.0281ms total)
+    Deserialize: 903,016 op/s (0.0011074ms) (1.1074ms total)
+    Size: 1,024 bytes
+  Case #2 (Case #2):
+    Serialize: 929,886 op/s (0.0010754ms) (1.0754ms total)
+    Deserialize: 972,100 op/s (0.0010287ms) (1.0287ms total)
+    Size: 1,024 bytes
+  Case #3 (Case #3):
+    Serialize: 1,250,938 op/s (0.0007994ms) (0.7994ms total)
+    Deserialize: 817,460 op/s (0.0012233ms) (1.2233ms total)
+    Size: 1,024 bytes
+  Case #4 (Case #4):
+    Serialize: 962,278 op/s (0.0010391999999999999ms) (1.0392ms total)
+    Deserialize: 701,606 op/s (0.0014253ms) (1.4253ms total)
+    Size: 1,024 bytes
+  Case #5 (Case #5):
+    Serialize: 1,080,263 op/s (0.0009257ms) (0.9257ms total)
+    Deserialize: 1,870,207 op/s (0.0005346999999999999ms) (0.5347ms total)
+    Size: 1,024 bytes
+
+(16/30) Buffer (Getter Size) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 1,466,920 op/s (0.0006816999999999999ms) (0.6817ms total)
+    Deserialize: 1,078,632 op/s (0.0009271ms) (0.9271ms total)
+    Size: 1,024 bytes
+  Case #2 (Case #2):
+    Serialize: 1,566,416 op/s (0.0006384ms) (0.6384ms total)
+    Deserialize: 1,614,987 op/s (0.0006192ms) (0.6192ms total)
+    Size: 1,024 bytes
+  Case #3 (Case #3):
+    Serialize: 1,106,439 op/s (0.0009038000000000001ms) (0.9038ms total)
+    Deserialize: 1,587,301 op/s (0.00063ms) (0.63ms total)
+    Size: 1,024 bytes
+  Case #4 (Case #4):
+    Serialize: 1,667,222 op/s (0.0005998ms) (0.5998ms total)
+    Deserialize: 1,868,809 op/s (0.0005351ms) (0.5351ms total)
+    Size: 1,024 bytes
+  Case #5 (Case #5):
+    Serialize: 1,828,153 op/s (0.0005470000000000001ms) (0.547ms total)
+    Deserialize: 1,617,861 op/s (0.0006181ms) (0.6181ms total)
+    Size: 1,024 bytes
+
+(17/30) Buffer (Dynamic Size) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 900,982 op/s (0.0011099ms) (1.1099ms total)
+    Deserialize: 1,290,322 op/s (0.000775ms) (0.775ms total)
+    Size: 708 bytes
+  Case #2 (Case #2):
+    Serialize: 877,808 op/s (0.0011392ms) (1.1392ms total)
+    Deserialize: 890,234 op/s (0.0011233ms) (1.1233ms total)
+    Size: 1,021 bytes
+  Case #3 (Case #3):
+    Serialize: 1,519,295 op/s (0.0006582000000000001ms) (0.6582ms total)
+    Deserialize: 1,515,381 op/s (0.0006599ms) (0.6599ms total)
+    Size: 903 bytes
+  Case #4 (Case #4):
+    Serialize: 1,835,199 op/s (0.0005449000000000001ms) (0.5449ms total)
+    Deserialize: 2,108,370 op/s (0.0004743ms) (0.4743ms total)
+    Size: 574 bytes
+  Case #5 (Case #5):
+    Serialize: 1,644,736 op/s (0.000608ms) (0.608ms total)
+    Deserialize: 1,885,725 op/s (0.0005303ms) (0.5303ms total)
+    Size: 314 bytes
+
+(18/30) String (No Encoding) (Static Size) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 892,140 op/s (0.0011209ms) (1.1209ms total)
+    Deserialize: 1,336,541 op/s (0.0007482ms) (0.7482ms total)
+    Size: 1,024 bytes
+  Case #2 (Case #2):
+    Serialize: 865,650 op/s (0.0011552ms) (1.1552ms total)
+    Deserialize: 1,217,433 op/s (0.0008214ms) (0.8214ms total)
+    Size: 1,024 bytes
+  Case #3 (Case #3):
+    Serialize: 992,654 op/s (0.0010074ms) (1.0074ms total)
+    Deserialize: 1,821,825 op/s (0.0005489000000000001ms) (0.5489ms total)
+    Size: 1,024 bytes
+  Case #4 (Case #4):
+    Serialize: 691,515 op/s (0.0014460999999999999ms) (1.4461ms total)
+    Deserialize: 1,412,828 op/s (0.0007078ms) (0.7078ms total)
+    Size: 1,024 bytes
+  Case #5 (Case #5):
+    Serialize: 721,188 op/s (0.0013866ms) (1.3866ms total)
+    Deserialize: 3,031,221 op/s (0.00032990000000000005ms) (0.3299ms total)
+    Size: 1,024 bytes
+
+(19/30) String (No Encoding) (Getter Size) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 1,160,227 op/s (0.0008619ms) (0.8619ms total)
+    Deserialize: 1,946,661 op/s (0.0005137000000000001ms) (0.5137ms total)
+    Size: 1,024 bytes
+  Case #2 (Case #2):
+    Serialize: 1,144,950 op/s (0.0008734ms) (0.8734ms total)
+    Deserialize: 2,075,980 op/s (0.0004817ms) (0.4817ms total)
+    Size: 1,024 bytes
+  Case #3 (Case #3):
+    Serialize: 1,026,588 op/s (0.0009741ms) (0.9741ms total)
+    Deserialize: 2,196,836 op/s (0.0004552ms) (0.4552ms total)
+    Size: 1,024 bytes
+  Case #4 (Case #4):
+    Serialize: 1,269,841 op/s (0.0007875ms) (0.7875ms total)
+    Deserialize: 1,998,001 op/s (0.0005005ms) (0.5005ms total)
+    Size: 1,024 bytes
+  Case #5 (Case #5):
+    Serialize: 1,473,839 op/s (0.0006785ms) (0.6785ms total)
+    Deserialize: 2,469,135 op/s (0.00040500000000000003ms) (0.405ms total)
+    Size: 1,024 bytes
+
+(20/30) String (No Encoding) (Dynamic Size) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 2,157,031 op/s (0.0004636ms) (0.4636ms total)
+    Deserialize: 3,401,360 op/s (0.000294ms) (0.294ms total)
+    Size: 243 bytes
+  Case #2 (Case #2):
+    Serialize: 1,223,091 op/s (0.0008176ms) (0.8176ms total)
+    Deserialize: 2,149,151 op/s (0.0004653ms) (0.4653ms total)
+    Size: 1,011 bytes
+  Case #3 (Case #3):
+    Serialize: 1,754,078 op/s (0.0005701ms) (0.5701ms total)
+    Deserialize: 2,567,394 op/s (0.00038950000000000003ms) (0.3895ms total)
+    Size: 566 bytes
+  Case #4 (Case #4):
+    Serialize: 1,190,617 op/s (0.0008399ms) (0.8399ms total)
+    Deserialize: 3,824,091 op/s (0.0002615ms) (0.2615ms total)
+    Size: 332 bytes
+  Case #5 (Case #5):
+    Serialize: 1,239,310 op/s (0.0008068999999999999ms) (0.8069ms total)
+    Deserialize: 2,282,583 op/s (0.00043809999999999997ms) (0.4381ms total)
+    Size: 1,018 bytes
+
+(21/30) String (Hex) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 504,184 op/s (0.0019834ms) (1.9834ms total)
+    Deserialize: 826,582 op/s (0.0012098ms) (1.2098ms total)
+    Size: 781 bytes
+  Case #2 (Case #2):
+    Serialize: 548,456 op/s (0.0018233ms) (1.8233ms total)
+    Deserialize: 1,026,799 op/s (0.0009739ms) (0.9739ms total)
+    Size: 650 bytes
+  Case #3 (Case #3):
+    Serialize: 354,408 op/s (0.0028216ms) (2.8216ms total)
+    Deserialize: 957,854 op/s (0.001044ms) (1.044ms total)
+    Size: 753 bytes
+  Case #4 (Case #4):
+    Serialize: 1,136,880 op/s (0.0008796ms) (0.8796ms total)
+    Deserialize: 2,401,536 op/s (0.0004164ms) (0.4164ms total)
+    Size: 81 bytes
+  Case #5 (Case #5):
+    Serialize: 1,466,275 op/s (0.0006820000000000001ms) (0.682ms total)
+    Deserialize: 2,086,811 op/s (0.0004792ms) (0.4792ms total)
+    Size: 144 bytes
+
+(22/30) String (Base64) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 465,787 op/s (0.0021469ms) (2.1469ms total)
+    Deserialize: 1,846,381 op/s (0.0005415999999999999ms) (0.5416ms total)
+    Size: 832 bytes
+  Case #2 (Case #2):
+    Serialize: 1,088,257 op/s (0.0009189000000000001ms) (0.9189ms total)
+    Deserialize: 2,204,585 op/s (0.0004536ms) (0.4536ms total)
+    Size: 143 bytes
+  Case #3 (Case #3):
+    Serialize: 728,119 op/s (0.0013733999999999999ms) (1.3734ms total)
+    Deserialize: 1,579,279 op/s (0.0006332ms) (0.6332ms total)
+    Size: 568 bytes
+  Case #4 (Case #4):
+    Serialize: 851,281 op/s (0.0011747ms) (1.1747ms total)
+    Deserialize: 1,971,608 op/s (0.0005072ms) (0.5072ms total)
+    Size: 232 bytes
+  Case #5 (Case #5):
+    Serialize: 1,276,487 op/s (0.0007834ms) (0.7834ms total)
+    Deserialize: 1,727,115 op/s (0.000579ms) (0.579ms total)
+    Size: 17 bytes
+
+(23/30) Array (UInt8) (Static Size) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 557,040 op/s (0.0017951999999999998ms) (1.7952ms total)
+    Deserialize: 569,087 op/s (0.0017572ms) (1.7572ms total)
+    Size: 32 bytes
+  Case #2 (Case #2):
+    Serialize: 1,206,127 op/s (0.0008290999999999999ms) (0.8291ms total)
+    Deserialize: 1,750,087 op/s (0.0005714ms) (0.5714ms total)
+    Size: 32 bytes
+  Case #3 (Case #3):
+    Serialize: 1,233,501 op/s (0.0008107ms) (0.8107ms total)
+    Deserialize: 1,741,553 op/s (0.0005742000000000001ms) (0.5742ms total)
+    Size: 32 bytes
+  Case #4 (Case #4):
+    Serialize: 1,173,158 op/s (0.0008524ms) (0.8524ms total)
+    Deserialize: 1,748,557 op/s (0.0005719ms) (0.5719ms total)
+    Size: 32 bytes
+  Case #5 (Case #5):
+    Serialize: 1,116,694 op/s (0.0008954999999999999ms) (0.8955ms total)
+    Deserialize: 1,481,262 op/s (0.0006751ms) (0.6751ms total)
+    Size: 32 bytes
+
+(24/30) Array (UInt8) (Getter Size) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 481,023 op/s (0.0020789ms) (2.0789ms total)
+    Deserialize: 661,463 op/s (0.0015118ms) (1.5118ms total)
+    Size: 32 bytes
+  Case #2 (Case #2):
+    Serialize: 1,219,512 op/s (0.00082ms) (0.82ms total)
+    Deserialize: 1,621,796 op/s (0.0006166ms) (0.6166ms total)
+    Size: 32 bytes
+  Case #3 (Case #3):
+    Serialize: 1,135,976 op/s (0.0008803ms) (0.8803ms total)
+    Deserialize: 1,643,925 op/s (0.0006083ms) (0.6083ms total)
+    Size: 32 bytes
+  Case #4 (Case #4):
+    Serialize: 1,237,776 op/s (0.0008079ms) (0.8079ms total)
+    Deserialize: 1,452,643 op/s (0.0006884ms) (0.6884ms total)
+    Size: 32 bytes
+  Case #5 (Case #5):
+    Serialize: 1,275,998 op/s (0.0007836999999999999ms) (0.7837ms total)
+    Deserialize: 1,648,261 op/s (0.0006067000000000001ms) (0.6067ms total)
+    Size: 32 bytes
+
+(25/30) Array (UInt8) (Dynamic Size) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 1,067,463 op/s (0.0009368ms) (0.9368ms total)
+    Deserialize: 1,516,760 op/s (0.0006593ms) (0.6593ms total)
+    Size: 33 bytes
+  Case #2 (Case #2):
+    Serialize: 966,276 op/s (0.0010348999999999998ms) (1.0349ms total)
+    Deserialize: 1,347,164 op/s (0.0007423ms) (0.7423ms total)
+    Size: 33 bytes
+  Case #3 (Case #3):
+    Serialize: 1,199,040 op/s (0.000834ms) (0.834ms total)
+    Deserialize: 1,519,756 op/s (0.0006580000000000001ms) (0.658ms total)
+    Size: 33 bytes
+  Case #4 (Case #4):
+    Serialize: 1,049,979 op/s (0.0009524000000000001ms) (0.9524ms total)
+    Deserialize: 1,504,664 op/s (0.0006646ms) (0.6646ms total)
+    Size: 33 bytes
+  Case #5 (Case #5):
+    Serialize: 1,166,861 op/s (0.000857ms) (0.857ms total)
+    Deserialize: 1,432,664 op/s (0.0006979999999999999ms) (0.698ms total)
+    Size: 33 bytes
+
+(26/30) Array (String) (Dynamic Size) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 138,215 op/s (0.0072351ms) (7.2351ms total)
+    Deserialize: 131,637 op/s (0.007596599999999999ms) (7.5966ms total)
+    Size: 529 bytes
+  Case #2 (Case #2):
+    Serialize: 144,780 op/s (0.006907ms) (6.907ms total)
+    Deserialize: 141,009 op/s (0.0070917ms) (7.0917ms total)
+    Size: 529 bytes
+  Case #3 (Case #3):
+    Serialize: 149,287 op/s (0.0066985000000000005ms) (6.6985ms total)
+    Deserialize: 134,336 op/s (0.007444ms) (7.444ms total)
+    Size: 529 bytes
+  Case #4 (Case #4):
+    Serialize: 142,138 op/s (0.0070354ms) (7.0354ms total)
+    Deserialize: 136,617 op/s (0.0073197ms) (7.3197ms total)
+    Size: 529 bytes
+  Case #5 (Case #5):
+    Serialize: 146,256 op/s (0.0068373ms) (6.8373ms total)
+    Deserialize: 146,087 op/s (0.0068452ms) (6.8452ms total)
+    Size: 529 bytes
+
+(27/30) Dictionary (Static Keys Count) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 130,960 op/s (0.0076359ms) (7.6359ms total)
+    Deserialize: 118,726 op/s (0.0084227ms) (8.4227ms total)
+    Size: 309 bytes
+  Case #2 (Case #2):
+    Serialize: 149,570 op/s (0.0066858ms) (6.6858ms total)
+    Deserialize: 141,498 op/s (0.0070672ms) (7.0672ms total)
+    Size: 310 bytes
+  Case #3 (Case #3):
+    Serialize: 171,253 op/s (0.0058392999999999995ms) (5.8393ms total)
+    Deserialize: 142,099 op/s (0.0070373ms) (7.0373ms total)
+    Size: 309 bytes
+  Case #4 (Case #4):
+    Serialize: 188,111 op/s (0.0053159999999999995ms) (5.316ms total)
+    Deserialize: 134,105 op/s (0.0074568ms) (7.4568ms total)
+    Size: 307 bytes
+  Case #5 (Case #5):
+    Serialize: 181,405 op/s (0.0055125ms) (5.5125ms total)
+    Deserialize: 133,609 op/s (0.0074845ms) (7.4845ms total)
+    Size: 312 bytes
+
+(28/30) Dictionary (Getter Keys Count) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 143,360 op/s (0.0069754ms) (6.9754ms total)
+    Deserialize: 118,870 op/s (0.0084125ms) (8.4125ms total)
+    Size: 311 bytes
+  Case #2 (Case #2):
+    Serialize: 163,896 op/s (0.0061014ms) (6.1014ms total)
+    Deserialize: 121,509 op/s (0.008229799999999999ms) (8.2298ms total)
+    Size: 310 bytes
+  Case #3 (Case #3):
+    Serialize: 172,247 op/s (0.0058056ms) (5.8056ms total)
+    Deserialize: 121,121 op/s (0.0082562ms) (8.2562ms total)
+    Size: 308 bytes
+  Case #4 (Case #4):
+    Serialize: 169,279 op/s (0.0059074ms) (5.9074ms total)
+    Deserialize: 122,010 op/s (0.008196ms) (8.196ms total)
+    Size: 306 bytes
+  Case #5 (Case #5):
+    Serialize: 159,979 op/s (0.0062508ms) (6.2508ms total)
+    Deserialize: 124,548 op/s (0.008029ms) (8.029ms total)
+    Size: 311 bytes
+
+(29/30) Dictionary (Dynamic Keys Count) (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 879,739 op/s (0.0011367ms) (1.1367ms total)
+    Deserialize: 779,666 op/s (0.0012826ms) (1.2826ms total)
+    Size: 50 bytes
+  Case #2 (Case #2):
+    Serialize: 278,838 op/s (0.0035863ms) (3.5863ms total)
+    Deserialize: 216,825 op/s (0.004612ms) (4.612ms total)
+    Size: 175 bytes
+  Case #3 (Case #3):
+    Serialize: 195,553 op/s (0.0051137ms) (5.1137ms total)
+    Deserialize: 156,759 op/s (0.0063792ms) (6.3792ms total)
+    Size: 246 bytes
+  Case #4 (Case #4):
+    Serialize: 298,846 op/s (0.0033462ms) (3.3462ms total)
+    Deserialize: 246,596 op/s (0.0040552ms) (4.0552ms total)
+    Size: 162 bytes
+  Case #5 (Case #5):
+    Serialize: 207,176 op/s (0.0048268ms) (4.8268ms total)
+    Deserialize: 190,023 op/s (0.0052625ms) (5.2625ms total)
+    Size: 202 bytes
+
+(30/30) Chunk (5 case/s):
+  Case #1 (Case #1):
+    Serialize: 34,334 op/s (0.0291255ms) (29.1255ms total)
+    Deserialize: 65,172 op/s (0.015344ms) (15.344ms total)
+    Size: 128 bytes
+  Case #2 (Case #2):
+    Serialize: 48,963 op/s (0.0204235ms) (20.4235ms total)
+    Deserialize: 89,535 op/s (0.0111687ms) (11.1687ms total)
+    Size: 128 bytes
+  Case #3 (Case #3):
+    Serialize: 58,181 op/s (0.0171877ms) (17.1877ms total)
+    Deserialize: 91,817 op/s (0.0108912ms) (10.8912ms total)
+    Size: 128 bytes
+  Case #4 (Case #4):
+    Serialize: 44,241 op/s (0.022603ms) (22.603ms total)
+    Deserialize: 75,568 op/s (0.013233100000000001ms) (13.2331ms total)
+    Size: 128 bytes
+  Case #5 (Case #5):
+    Serialize: 57,944 op/s (0.0172578ms) (17.2578ms total)
+    Deserialize: 104,397 op/s (0.0095788ms) (9.5788ms total)
+    Size: 128 bytes
+
+All tests passed successfully! (760.2922ms)
