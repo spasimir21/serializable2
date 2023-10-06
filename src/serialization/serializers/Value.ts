@@ -11,8 +11,11 @@ function Value<T>(valueOrGetter: T | ((context: DeserializationContext) => T)) {
 const Undefined = Value(undefined);
 const Null = Value(null);
 
+const True = Value(true);
+const False = Value(false);
+
 const NegativeInfinity = Value(-Infinity);
 const _Infinity = Value(Infinity);
 const _NaN = Value(NaN);
 
-export { Value, Undefined, Null, NegativeInfinity, _Infinity, _NaN };
+export { Value, Undefined, Null, True, False, NegativeInfinity, _Infinity, _NaN };

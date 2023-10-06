@@ -28,6 +28,19 @@ class BinaryWriter {
     this._length += size;
   }
 
+  unshiftWrite<T>(adapter: IBinaryAdapter<T, any>, value: T): void {
+    const size = adapter.size(value);
+
+    this.nodes.unshift({
+      adapter,
+      value,
+      size,
+      next: null
+    });
+
+    this._length += size;
+  }
+
   toBuffer(): Buffer {
     const buffer = Buffer.allocUnsafe(this._length);
 

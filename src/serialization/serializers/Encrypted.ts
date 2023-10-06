@@ -6,7 +6,7 @@ import { ISerializer, createSerializer } from '../ISerializer';
 import { Context } from '../context';
 
 interface EncryptionOptions {
-  algorithm: string;
+  algorithm: string | ((context: Context) => string);
   key: CipherKey | ((context: Context) => CipherKey);
   iv: BinaryLike | null | ((context: Context) => BinaryLike | null);
 }
@@ -19,7 +19,10 @@ interface StaticEncryptionOptions {
 
 function getStaticEncryptionOptions(context: Context, encryptionOptions: EncryptionOptions): StaticEncryptionOptions {
   return {
-    algorithm: encryptionOptions.algorithm,
+    algorithm:
+      typeof encryptionOptions.algorithm === 'function'
+        ? encryptionOptions.algorithm(context)
+        : encryptionOptions.algorithm,
     key: typeof encryptionOptions.key === 'function' ? encryptionOptions.key(context) : encryptionOptions.key,
     iv: typeof encryptionOptions.iv === 'function' ? encryptionOptions.iv(context) : encryptionOptions.iv
   };
@@ -27,14 +30,14 @@ function getStaticEncryptionOptions(context: Context, encryptionOptions: Encrypt
 
 function encrypt(data: Buffer, context: Context, encryptionOptions: EncryptionOptions) {
   const staticEncOptions = getStaticEncryptionOptions(context, encryptionOptions);
-  const cipher = createCipheriv(encryptionOptions.algorithm, staticEncOptions.key, staticEncOptions.iv);
+  const cipher = createCipheriv(staticEncOptions.algorithm, staticEncOptions.key, staticEncOptions.iv);
 
   return Buffer.concat([cipher.update(data), cipher.final()]);
 }
 
 function decrypt(data: Buffer, context: Context, encryptionOptions: EncryptionOptions) {
   const staticEncOptions = getStaticEncryptionOptions(context, encryptionOptions);
-  const decipher = createDecipheriv(encryptionOptions.algorithm, staticEncOptions.key, staticEncOptions.iv);
+  const decipher = createDecipheriv(staticEncOptions.algorithm, staticEncOptions.key, staticEncOptions.iv);
 
   return Buffer.concat([decipher.update(data), decipher.final()]);
 }

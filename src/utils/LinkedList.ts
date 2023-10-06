@@ -26,6 +26,14 @@ class LinkedList<TNode extends ILinkedListNode<TNode>> {
     this._length++;
     return node;
   }
+
+  unshift(node: TNode): TNode {
+    node.next = this._start;
+    this._start = node;
+    if (this._length == 0) this._tail = node;
+    this._length++;
+    return node;
+  }
 }
 
 export { LinkedList, ILinkedListNode };

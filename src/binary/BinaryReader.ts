@@ -11,6 +11,10 @@ class BinaryReader {
     return this._offset;
   }
 
+  get remainingBytes(): number {
+    return this.length - this.offset;
+  }
+
   get isDone(): boolean {
     return this._isDone;
   }

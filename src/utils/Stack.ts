@@ -12,6 +12,10 @@ class Stack<T> {
   pop(): T | null {
     return this.items.pop() ?? null;
   }
+
+  replaceTop(item: T): void {
+    this.items[this.items.length - 1] = item;
+  }
 }
 
 export { Stack };

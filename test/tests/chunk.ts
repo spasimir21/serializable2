@@ -41,7 +41,7 @@ const Chunk = Scope<Chunk, Scope>(scope =>
       ),
       Encrypted(
         { algorithm: 'aes-256-cbc', key: () => scope.uniqueKey, iv: () => scope.uniqueIv },
-        context => context.reader.length - context.reader.offset,
+        context => context.reader.remainingBytes,
         Sequence([
           Intercept(
             UInt32,
